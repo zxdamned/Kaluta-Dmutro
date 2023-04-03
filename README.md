@@ -18,7 +18,8 @@
   <li>Розробити клас для тестування коректності результатів обчислень та серіалізації/десеріалізації.</li>
   <li>Використовувати докладні коментарі для автоматичної генерації документації засобами javadoc.</li>
 </ul>
-<image src=https://user-images.githubusercontent.com/113301385/224079859-c0762a26-ec0d-423a-a127-2b27dbd4a939.png alt="Знімок екрана 1" align="center">
+
+<image src=https://user-images.githubusercontent.com/99972349/229460508-32b43324-5bf6-4851-9f7f-36c33e5c8c5e.png alt="Знімок екрана 1" align="center">
 <br>
 <hr>
 <h3 align="center">Завдання 2</h3>
