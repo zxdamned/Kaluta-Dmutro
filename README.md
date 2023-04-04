@@ -32,7 +32,7 @@
 <li>Розробити клас для тестування основної функціональності.</li>
 <li>Використати коментарі для автоматичної генерації документації засобами javadoc
 </ul>
-<image https://user-images.githubusercontent.com/99972349/229787515-869f197b-44ba-4be2-8812-7a6026bdb76e.png alt="Знімок екрана 2" align="center">
+<image src=https://user-images.githubusercontent.com/99972349/229787515-869f197b-44ba-4be2-8812-7a6026bdb76e.png alt="Знімок екрана 2" align="center">
 <image src=https://user-images.githubusercontent.com/99972349/229787399-2013f94a-a7b8-42d2-98f9-890e33182a05.png alt="Знімок екрана 2" align="center">
 <br>
 <hr>
