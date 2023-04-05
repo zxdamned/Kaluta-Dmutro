@@ -1,11 +1,11 @@
 package ex02;
 
 /** ConcreteCreator
- * (шаблон проектування
+ * (пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
  * Factory Method)<br>
- * Об'являє метод,
- * "фабрикуючий" об'єкти
- * @author Danylo_Donets
+ * пїЅпїЅ'пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ,
+ * "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ" пїЅпїЅ'пїЅпїЅпїЅпїЅ
+ * @author 34
  * @version 1.0
  * @see Viewable
  * @see ViewableResult#getView()
@@ -13,7 +13,7 @@ package ex02;
 
 public class ViewableResult implements Viewable 
 {
-	/** Створює відображаємий об'єкт {@linkplain ViewResult} */
+	/** пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ'пїЅпїЅпїЅ {@linkplain ViewResult} */
 	@Override
 	public View getView() 
 	{

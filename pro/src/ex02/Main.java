@@ -4,29 +4,29 @@ import java.io.IOException;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
-/** Обчислення і відображення результатів<br>
- * Включає реалізацію статичного метода main()
- * @author Danylo_Donets
+/** пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ<br>
+ * пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ main()
+ * @author 34
  * @version 2.0
  * @see Main#main
  */
 public class Main 
 {
 	
-	/** Об'єкт, реалізуючий інтерфейс {@linkplain View};
-	 * обслуговує колекцію об'єктів {@linkplain ex01.Item2d}
+	/** пїЅпїЅ'пїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ {@linkplain View};
+	 * пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ'пїЅпїЅпїЅпїЅ {@linkplain ex01.Item2d}
 	 */
 	private View view;
 	
-	/** Ініціалізує поле {@linkplain Main#view view}. 
-	 *@param view - параметр виду програми. 
+	/** пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ {@linkplain Main#view view}. 
+	 *@param view - пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ. 
 	 */
 	public Main(View view) 
 	{
 		this.view = view;
 	}
 	
-	/** Відображає меню. */
+	/** ВіпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ. */
 	protected void menu() 
 	{
 		String s = null;
@@ -89,9 +89,9 @@ public class Main
 		} while(s.charAt(0) != 'q');
 	}
 	
-	/** Виконується під час запуску програми;
-	 * викликає метод {@linkplain Main#menu() menu()}
-	 * @param args - параметри запуску програми.
+	/** пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ;
+	 * пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ {@linkplain Main#menu() menu()}
+	 * @param args - пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.
 	 */
 	public static void main(String[] args) {
 		Main main = new Main(new ViewableResult().getView());

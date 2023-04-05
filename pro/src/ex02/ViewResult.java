@@ -16,7 +16,7 @@ import ex01.Item2d;
  *  ,
  *   
  * 
- * @author Danylo_Donets
+ * @author 34
  * @version 1.0
  * @see View
  */
