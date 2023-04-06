@@ -6,16 +6,16 @@ import org.junit.Test;
 import ex01.Item2d;
 import ex02.ViewResult;
 
-/** Тестування класу
+/** Г’ГҐГ±ГІГіГўГ Г­Г­Гї ГЄГ«Г Г±Гі
  * ChangeItemCommand
- * @author 44
+ * @author 34
  * @version 4.0
  * @see ChangeItemCommand
  */
 
 public class MainTest {
 
-	/** Перевірка методу {@linkplain ChangeItemCommand#execute()} */
+	/** ГЏГҐГ°ГҐГўВіГ°ГЄГ  Г¬ГҐГІГ®Г¤Гі {@linkplain ChangeItemCommand#execute()} */
 	@Test
 	public void testExecute() {
 		ChangeItemCommand cmd = new ChangeItemCommand();
@@ -30,7 +30,7 @@ public class MainTest {
 		}
 	}
 	
-	/** Перевірка класу {@linkplain ChangeConsoleCommand} */
+	/** ГЏГҐГ°ГҐГўВіГ°ГЄГ  ГЄГ«Г Г±Гі {@linkplain ChangeConsoleCommand} */
 	@Test
 	public void testChangeConsoleCommand() {
 		ChangeConsoleCommand cmd = new ChangeConsoleCommand(new ViewResult());
