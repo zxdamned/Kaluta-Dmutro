@@ -62,6 +62,22 @@
 </ul>
 <image src=https://user-images.githubusercontent.com/99972349/230426829-e7bc725a-3a1a-4a5f-a044-7b6fff8fb94d.png alt="Знімок екрана 4" align="center">
 <image src=https://user-images.githubusercontent.com/99972349/230426928-57d68e17-3dcd-4215-934f-38c24c5499b5.png alt="Знімок екрана 4" align="center">
+<br>
+<hr>
+<h3 align="center">Завдання 5</h3>
+<h4>Умова:</h4>
+<ul>
+<li>Продемонструвати можливість паралельної обробки елементів колекції (пошук мінімуму, максимуму, обчислення середнього значення, відбір за критерієм, статистична обробка тощо).</li>
+<li>Управління чергою завдань (команд) реалізувати за допомогою шаблону Worker Thread.</li>
+<li>Забезпечити діалоговий інтерфейс із користувачем.</li>
+<li>Розробити клас для тестування функціональності програми.</li>
+<li>Використати коментарі для автоматичної генерації документації засобами javadoc.</li>
+</ul>
+<image src=https://user-images.githubusercontent.com/99972349/230553888-dd1e68ea-e3cf-4a28-b922-1505a29749f4.png alt="Знімок екрана 5" align="center">
+
+<image src=https://user-images.githubusercontent.com/99972349/230553925-a545e951-2fb9-4482-b8a6-22ba46ad3c88.png alt="Знімок екрана 5" align="center">
+<br>
+<hr>
 
 
 
